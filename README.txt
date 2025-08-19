@@ -26,7 +26,7 @@
     pip install -r requirements.txt
 
 4. **Run the project:
-
+   add the .env file 
    cd prescription_parser
    then run this command in terminal "streamlit run prescription_parser_ui.py"
 
