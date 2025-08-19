@@ -25,13 +25,15 @@
     ```bash
     pip install -r requirements.txt
 
-4. **Run the project:
-   add the .env file 
-   cd prescription_parser
-   then run this command in terminal "streamlit run prescription_parser_ui.py"
+4. **Setup .env file 
+   create .env file in root
+   create the variable names GROQ_API_KEY and OCR_SPACE_API_KEY and then add your api keys there 
+
+5. **Run the project:
+   run this command in terminal "streamlit run prescription_parser_ui.py"
 
 
-5. **In the browser:
+6. **In the browser:
 
     Upload a prescription (PDF or image)
     Click "Analyze Prescription"
